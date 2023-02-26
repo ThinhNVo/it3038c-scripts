@@ -37,8 +37,8 @@ http.createServer((req, res) => {
                 <p>Hostname: ${myHostName}</p>
                 <p>IP: ${ip.address()}</p>
                 <p>Server Uptime: days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}</p>
-                <p>Total Memory: ${totalMemMB}</p>
-                <p>Free Memory: ${freeMemMB}</p>
+                <p>Total Memory: ${totalMemMB} MB</p>
+                <p>Free Memory: ${freeMemMB} MB</p>
                 <p>Number of CPUs: ${cpus}</p>
             </body>
         </html>`
