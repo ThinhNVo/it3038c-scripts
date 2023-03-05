@@ -1,4 +1,5 @@
 #Lab7
+
 Showcase of some functionalities of pyautogui plugins
 
 #Install
